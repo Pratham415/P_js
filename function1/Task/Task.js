@@ -26,12 +26,12 @@
 // 4. Implement a function `capitalizeFirstLetter` that accepts a string and returns the same string with the first letter capitalized.
 // var str = "pratham";
 
-// function capitalize(str){
-//     var a = str[0].toUpperCase();
-//     var b = a + str.slice(1);
-//     return b;
-// }
-// console.log("The capitalize string is : ",capitalize("pratham"));
+function capitalize(str){
+    var a = str[0].toUpperCase();
+    var b = a + str.slice(1);
+    return b;
+}
+console.log("The capitalize string is : ",capitalize("alish"));
 
 
 // 5. Define a function `sumArray` that takes an array of numbers as an argument and returns the sum of all the numbers.
@@ -43,7 +43,7 @@
 //         str
 //    }
 // }
-console.log("The reverse string : ",reverseString("pratham"));
+// console.log("The reverse string : ",reverseString("pratham"));
 // 7. Write a function `countVowels` that counts the number of vowels (a, e, i, o, u) in a given string and returns that count.
 
 // 8. Implement a function `filterEvenNumbers` that takes an array of numbers and returns a new array with only the even numbers .
@@ -51,3 +51,9 @@ console.log("The reverse string : ",reverseString("pratham"));
 // 9. Define a function `mergeArrays` that takes two arrays as arguments and returns a new array that merges both arrays.
 
 // 10. Create a function `calculateFactorial` that computes the factorial of a number (`n`) without rtn.
+// 2. Write a JavaScript function that checks whether a passed string is a palindrome or not?
+// A palindrome is word, phrase, or sequence that reads the same backward as forward, e.g., madam or nurses run. 
+
+// var str = function (){
+//     console.log();
+// }
